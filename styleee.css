@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(800px,#D60916,#F4372B);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+h1{
+    font-size: 5rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ffffff, #b9b9b9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 550px;
+}
+.textbox{
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+    align-items: start;
+}
+.imgbox{
+    display: flex;
+    justify-content: end;
+    margin-right: 250px;
+}
